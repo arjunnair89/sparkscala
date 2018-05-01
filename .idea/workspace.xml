@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4650ed86-fd92-4b76-b60a-0b0062965ff8" name="Default" comment="Stable checkin">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByFirstName.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/arnair/MinTemperatures.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,14 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FriendsByFirstName.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FriendsByFirstName.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByFirstName.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="300">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="68" />
               <folding>
                 <element signature="e#20#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinTemperatures.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/MinTemperatures.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -112,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/arnair/RatingsCounter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByAge.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByFirstName.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/arnair/MinTemperatures.scala" />
       </list>
     </option>
   </component>
@@ -195,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FriendsByFirstName">
+  <component name="RunManager" selected="Application.MinTemperatures">
     <configuration name="FriendsByAge" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.arnair.FriendsByAge" />
       <module name="sparkscala" />
@@ -209,6 +219,17 @@
     </configuration>
     <configuration name="FriendsByFirstName" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.arnair.FriendsByFirstName" />
+      <module name="sparkscala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arnair.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinTemperatures" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.arnair.MinTemperatures" />
       <module name="sparkscala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -290,9 +311,11 @@
       <item itemvalue="Application.RatingsCounter (1)" />
       <item itemvalue="Application.FriendsByAge" />
       <item itemvalue="Application.FriendsByFirstName" />
+      <item itemvalue="Application.MinTemperatures" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinTemperatures" />
         <item itemvalue="Application.FriendsByFirstName" />
         <item itemvalue="Application.FriendsByAge" />
         <item itemvalue="Application.RatingsCounter (1)" />
@@ -373,12 +396,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002764" side_tool="true" weight="0.32991612" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997236" visible="true" weight="0.32991612" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997236" weight="0.32991612" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32991612" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32991612" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19568823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19568823" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.42031687" />
       <window_info id="Learn" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -565,11 +588,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByFirstName.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="68" />
           <folding>
             <element signature="e#20#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/MinTemperatures.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
         </state>
       </provider>
     </entry>
