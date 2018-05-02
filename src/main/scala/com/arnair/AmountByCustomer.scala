@@ -15,12 +15,14 @@ object AmountByCustomer {
     Logger.getLogger("org").setLevel(Level.ERROR)
 
     // Create a SparkContext using every core of the local machine
-    val sc = new SparkContext("local[*]", "FriendsByAge")
+    val sc = new SparkContext("local[*]", "TotalAmountByCustomer")
 
     // Load each line of the source data into an RDD
     val lines = sc.textFile("/home/arnair/Documents/udemy/SparkScala/customer-orders.csv")
     val customerAmountRDD = lines.map(parse)
-    val results = customerAmountRDD.reduceByKey((x, y) => x+y).collect()
+    val sumByCustomer = customerAmountRDD.reduceByKey((x, y) => x+y)
+
+    val results = sumByCustomer.map(x => (x._2, x._1)).collect()
     results.sorted.foreach(println(_))
   }
 

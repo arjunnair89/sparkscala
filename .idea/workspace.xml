@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4650ed86-fd92-4b76-b60a-0b0062965ff8" name="Default" comment="Stable checkin">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/arnair/AmountByCustomer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sparkscala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sparkscala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/active.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/arnair/PopularMovies.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/arnair/PopularMoviesNicer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/arnair/AmountByCustomer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/arnair/AmountByCustomer.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,7 +55,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/RatingsCounter.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopularMovies.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/PopularMovies.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopularMoviesNicer.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/PopularMoviesNicer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -65,20 +81,8 @@
       <file leaf-file-name="FriendsByAge.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByAge.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="23" selection-start-line="23" selection-end-line="30" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendsByFirstName.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByFirstName.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="68" />
-              <folding>
-                <element signature="e#20#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -88,18 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxPrecipitation.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/MaxPrecipitation.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
-              <folding>
-                <element signature="e#20#59#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -131,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AmountByCustomer.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AmountByCustomer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/AmountByCustomer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="300">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="68" />
               <folding>
                 <element signature="e#20#59#0" expanded="true" />
               </folding>
@@ -171,6 +163,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/arnair/WordCountBetter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/arnair/WordCountBetterSorted.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/arnair/AmountByCustomer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/arnair/PopularMovies.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/arnair/PopularMoviesNicer.scala" />
       </list>
     </option>
   </component>
@@ -254,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AmountByCustomer">
+  <component name="RunManager" selected="Application.PopularMoviesNicer">
     <configuration name="AmountByCustomer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.arnair.AmountByCustomer" />
       <module name="sparkscala" />
@@ -266,8 +260,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MaxPrecipitation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.arnair.MaxPrecipitation" />
+    <configuration name="PopularMovies" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.arnair.PopularMovies" />
       <module name="sparkscala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -277,8 +271,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.arnair.WordCount" />
+    <configuration name="PopularMoviesNicer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.arnair.PopularMoviesNicer" />
       <module name="sparkscala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -362,19 +356,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxPrecipitation" />
-      <item itemvalue="Application.WordCount" />
       <item itemvalue="Application.WordCountBetter" />
       <item itemvalue="Application.WordCountBetterSorted" />
       <item itemvalue="Application.AmountByCustomer" />
+      <item itemvalue="Application.PopularMovies" />
+      <item itemvalue="Application.PopularMoviesNicer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PopularMoviesNicer" />
+        <item itemvalue="Application.PopularMovies" />
         <item itemvalue="Application.AmountByCustomer" />
         <item itemvalue="Application.WordCountBetterSorted" />
         <item itemvalue="Application.WordCountBetter" />
-        <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.MaxPrecipitation" />
       </list>
     </recent_temporary>
   </component>
@@ -704,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/RatingsCounter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/MinTemperatures.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -735,20 +722,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/package.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/WordCountBetterSorted.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByAge.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" selection-start-line="23" selection-end-line="30" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -756,13 +729,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/FriendsByAge.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/WordCountBetterSorted.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/RatingsCounter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/PopularMovies.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/AmountByCustomer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="68" />
           <folding>
             <element signature="e#20#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/arnair/PopularMoviesNicer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
